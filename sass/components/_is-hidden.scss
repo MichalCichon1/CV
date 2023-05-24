@@ -1,0 +1,18 @@
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  &__backdrop {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    transition: visibility 0.3s linear, opacity 0.3s linear;
+  }
+  .modal {
+    transform: translate(-50%, -50%) scale(0);
+  }
+}

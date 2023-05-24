@@ -1,0 +1,43 @@
+$colorFooterColor: rgba(255, 255, 255, 0.6);
+$backgroundTwo: #2f303a;
+$colorText: #ffffff;
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding-bottom: 59px;
+    color: $colorText;
+    background-color: $backgroundTwo;
+
+    &__conteiner {
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+      justify-content: space-between;
+    }
+
+    &__conteiner-background {
+      padding-top: 59px;
+    }
+
+    &__list {
+      display: flex;
+      padding: 0;
+      list-style: none;
+      gap: 9px;
+      flex-direction: column;
+    }
+
+    &__company-address {
+      padding-top: 20px;
+      font-style: normal;
+    }
+
+    &__contact {
+      letter-spacing: 0.03em;
+      line-height: 1.714;
+      font-size: 14px;
+      color: $colorFooterColor;
+      text-decoration: none;
+    }
+  }
+}

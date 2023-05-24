@@ -1,0 +1,46 @@
+@media screen and (min-width: 1200px) {
+  .whatwearedo {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    &__headline {
+      letter-spacing: 0.03em;
+      line-height: 1.171;
+      font-size: 36px;
+      font-weight: 700;
+      padding-bottom: 50px;
+    }
+
+    &__list {
+      gap: 30px;
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding-bottom: 94px;
+    }
+
+    &__list-description {
+      position: relative;
+    }
+
+    &__description {
+      position: absolute;
+      width: 100%;
+      background: rgba(47, 48, 58, 0.8);
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #ffffff;
+      bottom: 0;
+      height: 70px;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

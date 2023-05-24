@@ -1,0 +1,37 @@
+$colorDescription: #757575;
+@media screen and (min-width: 1200px) {
+  .list-article {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 32px;
+
+    &__conteiners-icons {
+      background: #f5f4fa;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 4px;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__headline {
+      margin: 0 auto;
+      padding-top: 30px;
+      letter-spacing: 0.03em;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.172;
+    }
+
+    &__information {
+      margin: 0 auto;
+      padding-top: 10px;
+      letter-spacing: 0.03em;
+      line-height: 1.714;
+      font-size: 14px;
+      color: $colorDescription;
+    }
+  }
+}

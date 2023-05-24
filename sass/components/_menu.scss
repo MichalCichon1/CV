@@ -1,0 +1,13 @@
+@media screen and (min-width: 1200px) {
+  .menu {
+    padding-top: 26px;
+    padding-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &__portfolio {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}

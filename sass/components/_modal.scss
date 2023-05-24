@@ -1,0 +1,111 @@
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  width: 528px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: transform 0.3s linear;
+
+  &__header {
+    margin: 0;
+    padding-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+
+  &__conteiner {
+    margin: 8px 40px 20px 40px;
+  }
+
+  &__labels {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    &--regulations {
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+    }
+  }
+
+  &__conteiner-data {
+    overflow: hidden;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    &:focus-within,
+    &:hover {
+      border: 1px solid #2196f3;
+      fill: #2196f3;
+    }
+  }
+
+  &__icons {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+    &:hover,
+    &:focus-within {
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+  }
+
+  &__labels-data {
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    padding-left: 41px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+  }
+
+  &__labels-comment {
+    outline: none;
+    height: 120px;
+    width: 100%;
+    resize: none;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    padding: 12px 16px;
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+  }
+
+  &__statement {
+    display: flex;
+    gap: 7px;
+    margin-top: 12px;
+    align-items: center;
+  }
+
+  a {
+    border-bottom: 1px solid #2196f3;
+    color: #2196f3;
+    cursor: pointer;
+  }
+
+  &__conteiner-send {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,18 @@
+$colorDescription: #757575;
+@media screen and (min-width: 1200px) {
+  .contact {
+    font-size: 14px;
+    text-decoration: none;
+
+    &__header {
+      letter-spacing: 0.02em;
+      line-height: 1.172;
+      font-weight: 500;
+      color: $colorDescription;
+    }
+
+    &__header-mail {
+      padding-right: 30px;
+    }
+  }
+}

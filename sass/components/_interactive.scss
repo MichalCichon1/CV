@@ -1,0 +1,15 @@
+$colorButtonLink: #2196f3;
+@media screen and (min-width: 1200px) {
+  .interactive {
+    transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    align-items: center;
+    display: flex;
+
+    &:hover,
+    &:focus {
+      fill: $colorButtonLink;
+      color: $colorButtonLink;
+    }
+  }
+}

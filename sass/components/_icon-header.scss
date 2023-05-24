@@ -1,0 +1,15 @@
+@media screen and (min-width: 1200px) {
+  .icon-header {
+    display: flex;
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+
+    &__phone {
+      display: flex;
+      width: 10px;
+      height: 16px;
+      margin-right: 10px;
+    }
+  }
+}
