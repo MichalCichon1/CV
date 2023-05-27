@@ -1,5 +1,22 @@
 $colorDescription: #757575;
-@media screen and (min-width: 1200px) {
+
+.contact {
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+
+  &__header {
+    letter-spacing: 0.02em;
+    line-height: 1.172;
+    font-weight: 500;
+    color: $colorDescription;
+  }
+
+  &__header-mail {
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 481px) {
   .contact {
     font-size: 14px;
     text-decoration: none;
@@ -13,6 +30,13 @@ $colorDescription: #757575;
 
     &__header-mail {
       padding-right: 30px;
+    }
+    &__mobile-menu {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.02em;
+      color: #757575;
     }
   }
 }

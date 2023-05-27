@@ -1,5 +1,28 @@
 $colorText: #ffffff;
-@media screen and (min-width: 1200px) {
+
+.main-headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $colorText;
+  gap: 30px;
+
+  &__atrybutes {
+    margin: 0 auto;
+    margin-left: 25px;
+    margin-right: 26px;
+    text-align: center;
+    max-width: 696px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    line-height: 1.363;
+    font-weight: 900;
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1200px) {
   .main-headline {
     display: flex;
     flex-direction: column;

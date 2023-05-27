@@ -1,38 +1,37 @@
 $backgroundTwo: #2f303a;
-@media screen and (min-width: 1200px) {
-  .social-media {
-    margin: 0;
 
-    &__header {
-      padding-bottom: 20px;
-      padding-top: 72px;
-      margin: 0px;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.172;
-    }
-    &__header-newsletter {
-      padding-bottom: 20px;
-      padding-top: 72px;
-      margin: 0px;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.172;
-    }
+.social-media {
+  margin: 0;
 
-    &__email-footer {
-      padding-left: 15px;
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-      border-radius: 4px;
-      background-color: $backgroundTwo;
-      width: 358px;
-      height: 50px;
-      color: #ffffff;
-    }
+  &__header {
+    padding-bottom: 20px;
+    padding-top: 72px;
+    margin: 0px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.172;
+  }
+  &__header-newsletter {
+    padding-bottom: 20px;
+    padding-top: 72px;
+    margin: 0px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.172;
+  }
+
+  &__email-footer {
+    padding-left: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: $backgroundTwo;
+    width: 358px;
+    height: 50px;
+    color: #ffffff;
   }
 }

@@ -1,3 +1,9 @@
 ul {
   margin: 0 auto;
 }
+@media (max-width: 480px) {
+  ul {
+    margin: 0 auto;
+    padding: 0;
+  }
+}

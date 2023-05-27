@@ -1,15 +1,13 @@
 $colorText: #ffffff;
 $backgroundTwo: #2f303a;
 
-@media screen and (min-width: 1200px) {
-  .background-two {
-    background: url(../images/img-background.jpg),
-      linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
-    padding-top: 59px;
-    padding-bottom: 59px;
-    color: $colorText;
-    background-color: $backgroundTwo;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.background-two {
+  background: url(../images/img-background.jpg),
+    linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+  padding-top: 59px;
+  padding-bottom: 59px;
+  color: $colorText;
+  background-color: $backgroundTwo;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

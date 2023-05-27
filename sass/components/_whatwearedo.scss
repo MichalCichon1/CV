@@ -1,4 +1,8 @@
-@media screen and (min-width: 1200px) {
+.whatwearedo__mobile {
+  display: none;
+}
+
+@media (min-width: 1200px) {
   .whatwearedo {
     margin: 0 auto;
     display: flex;
