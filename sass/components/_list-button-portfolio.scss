@@ -1,8 +1,24 @@
 .list-button-portfolio {
   gap: 8px;
   display: flex;
-  justify-content: center;
   list-style: none;
   padding-top: 94px;
   padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 482px) {
+  .list-button-portfolio {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .list-button-portfolio {
+    gap: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    padding-top: 94px;
+    padding-bottom: 50px;
+  }
 }

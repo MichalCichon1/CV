@@ -14,12 +14,14 @@ $colorText: #ffffff;
     margin: 0 auto;
     padding: 0 15px;
     justify-content: space-between;
+    align-items: center;
   }
 
   &__conteiner-background {
     padding-top: 59px;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   &__list {
@@ -28,6 +30,7 @@ $colorText: #ffffff;
     list-style: none;
     gap: 9px;
     flex-direction: column;
+    align-items: center;
   }
 
   &__company-address {
@@ -43,8 +46,7 @@ $colorText: #ffffff;
     text-decoration: none;
   }
 }
-
-@media (min-width: 1200px) {
+@media screen and (min-width: 482px) {
   .footer {
     padding-bottom: 59px;
     color: $colorText;
@@ -52,6 +54,58 @@ $colorText: #ffffff;
 
     &__conteiner {
       display: flex;
+      flex-direction: column;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__conteiner-background {
+      padding-top: 59px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__list {
+      display: flex;
+      padding: 0;
+      list-style: none;
+      gap: 9px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__company-address {
+      padding-top: 20px;
+      font-style: normal;
+    }
+
+    &__contact {
+      letter-spacing: 0.03em;
+      line-height: 1.714;
+      font-size: 14px;
+      color: $colorFooterColor;
+      text-decoration: none;
+    }
+    &__conteiner-tablet {
+      display: flex;
+
+      gap: 144px;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding-bottom: 59px;
+    color: $colorText;
+    background-color: $backgroundTwo;
+
+    &__conteiner {
+      display: flex;
+      flex-direction: row;
       max-width: 1200px;
       margin: 0 auto;
       padding: 0 15px;

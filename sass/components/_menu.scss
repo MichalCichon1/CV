@@ -4,22 +4,34 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   &__portfolio {
     padding-left: 15px;
     padding-right: 15px;
   }
-  &__mobile {
-    display: none;
+}
+@media screen and (min-width: 482px) {
+  .menu {
+    padding-top: 26px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    &__portfolio {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 1200px) {
   .menu {
     padding-top: 26px;
     padding-bottom: 24px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     &__portfolio {
       padding-left: 15px;
       padding-right: 15px;

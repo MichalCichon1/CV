@@ -3,7 +3,6 @@ $colorLogoOne: #2196f3;
 $colorLogoTwo: #000000;
 
 .logo {
-  padding-right: 93px;
   letter-spacing: 0.03em;
   line-height: 1.173;
   font-weight: 700;
@@ -18,5 +17,25 @@ $colorLogoTwo: #000000;
 
   &__secondary {
     color: $colorText;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logo {
+    padding-right: 93px;
+    letter-spacing: 0.03em;
+    line-height: 1.173;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: "Raleway";
+    font-size: 26px;
+    color: $colorLogoTwo;
+
+    &__one {
+      color: $colorLogoOne;
+    }
+
+    &__secondary {
+      color: $colorText;
+    }
   }
 }

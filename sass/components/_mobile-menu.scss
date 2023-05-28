@@ -74,15 +74,15 @@
     & .is-open {
       transform: translateX(0);
     }
-    & .menu-toggle {
+    & .mobile-menu__button {
       position: absolute;
       top: 16px;
       right: 16px;
       color: #000;
       background-color: #fff;
     }
-    & .menu-toggle:hover,
-    & .menu-toggle:focus {
+    & .mobile-menu__button:hover,
+    & .mobile-menu__button:focus {
       color: #2196f3;
     }
   }
@@ -91,8 +91,11 @@
     color: #2196f3;
   }
 }
-@media (min-width: 481px) {
+@media screen and (min-width: 481px) {
   .mobile-menu__button {
+    display: none;
+  }
+  .mobile-menu__container {
     display: none;
   }
 }
