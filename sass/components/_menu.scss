@@ -15,10 +15,10 @@
     padding-top: 26px;
     padding-bottom: 24px;
     display: flex;
-    justify-content: space-between;
+    gap:100px;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    
     &__portfolio {
       padding-left: 15px;
       padding-right: 15px;
