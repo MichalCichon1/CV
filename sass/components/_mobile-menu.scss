@@ -69,7 +69,7 @@
     padding: 32px;
     background-color: #fff;
     z-index: 999;
-    transform: translateX(100%);
+    transform: translateX(125%);
     transition: transform 250ms ease-in-out;
     & .is-open {
       transform: translateX(0);

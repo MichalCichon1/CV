@@ -42,6 +42,7 @@ $backgroundTwo: #2f303a;
 @media screen and (min-width: 1200px) {
   .social-media {
     margin: 0;
+    margin-left: 70px;
 
     &__header {
       padding-bottom: 20px;
@@ -52,16 +53,20 @@ $backgroundTwo: #2f303a;
       font-weight: 700;
       font-size: 14px;
       line-height: 1.172;
+      display: flex;
+      justify-content: flex-start;
     }
     &__header-newsletter {
       padding-bottom: 20px;
-      padding-top: 72px;
+      padding-top: 82px;
       margin: 0px;
       letter-spacing: 0.03em;
       text-transform: uppercase;
       font-weight: 700;
       font-size: 14px;
       line-height: 1.172;
+      display: flex;
+      justify-content: flex-start;
     }
 
     &__email-footer {
