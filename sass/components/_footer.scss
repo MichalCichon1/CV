@@ -113,10 +113,13 @@ $colorText: #ffffff;
 
     &__conteiner-background {
       padding-top: 59px;
+      display: flex;
+    align-items: flex-start;
     }
 
     &__list {
       display: flex;
+      align-items: flex-start;
       padding: 0;
       list-style: none;
       gap: 9px;
