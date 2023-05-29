@@ -52,6 +52,8 @@ $backgroundTwo: #2f303a;
       font-weight: 700;
       font-size: 14px;
       line-height: 1.172;
+      display:flex;
+      justify-content: flex-start;
     }
     &__header-newsletter {
       padding-bottom: 20px;
